@@ -1,0 +1,186 @@
+/* Basic Setup */
+
+body {
+    font-family: 'Lato', 'Arial', sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* Headings */
+
+h1 {
+    font-size: 9px;
+    text-align: center;
+}
+
+h2 {
+    color: #a8a8a8;
+    font-size: 9px;
+    display: block;
+}
+
+
+/* Navbar */
+
+.navbar{
+    padding:0 10px;
+}
+
+.navbar-header {
+  float: none;
+}
+
+.navbar-toggle {
+  display: block;
+}
+
+.navbar-nav {
+  float: none!important;
+}
+
+.navbar-nav>li {
+  float: none;
+}
+
+.navbar-collapse.collapse.in{
+  display:block !important;
+}
+
+/* Misc */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.title_row {
+    padding-bottom: 30px;
+}
+
+.title_row .view_all {
+    float: right;
+}
+
+.row h2{
+    float: left;
+    margin: 10px 20px;
+}
+
+/* News & Events Section */
+
+#events{
+    margin-left:10px;
+    margin-right:10px
+}
+
+#events h2{
+    margin-left:0px;
+}
+
+#news{
+    padding-bottom: 20px;
+}
+
+/* Channel Section */
+
+#channel h2{
+   margin-left: 0px;
+}
+
+.long-copy {
+    line-height: 145%;
+    width: 100%;
+}
+
+.channel-left{
+    float:left;
+}
+
+.channel-right{
+    float:right;
+}
+
+/* Contact Section */
+
+.contact_heading {
+    font-weight: 500;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.contact a{
+    float:left;
+    margin: 10px 20px;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-instagram {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.ion-social-facebook:hover {
+    color: #3B5998;
+}
+
+.ion-social-twitter:hover {
+    color: #00aced;
+}
+
+.ion-social-instagram:hover {
+    color: #bc2a8d;
+}
+
+.social-links{
+    list-style: none;
+    float:right;
+    margin-top: 0px;
+    font-size: 110%;
+    color: #a8a8a8;
+}
+
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+    float: right;
+}
+
+/* Footer */
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #313131;
+    margin: none !important;
+}
+
+.footer a{
+    color: #fff;
+    float: right;
+    padding: 0 1px;
+    margin: 10px 20px;
+}
+
+.footer a:hover{
+    color: #a8a8a8;
+    text-decoration: none;
+}
+
+.footer p{
+    color: #525252;
+    float: left;
+    margin: 10px 20px;
+}
